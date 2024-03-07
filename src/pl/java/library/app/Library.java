@@ -1,7 +1,11 @@
+package pl.java.library.app;
+
+import pl.java.library.model.Book;
+
 class Library {
 
     public static void main(String[] args) {
-        final String appName = "Biblioteka v0.4";
+        final String appName = "Biblioteka v0.5";
 
         Book book1 = new Book("W pustyni i w puszczy",
                 "Henryk Sienkiewicz", 2010,
